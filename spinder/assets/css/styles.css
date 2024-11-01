@@ -74,3 +74,16 @@
 .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
 }
+
+img.spider{
+    width:100%;
+}
+.eater-regular {
+    font-family: "Eater", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  span.age{
+    font-size:18px;
+  }
