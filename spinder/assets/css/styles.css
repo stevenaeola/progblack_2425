@@ -87,3 +87,7 @@ img.spider{
   span.age{
     font-size:18px;
   }
+
+  .invisible {
+    display: none;
+  }
