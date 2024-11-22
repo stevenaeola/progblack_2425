@@ -35,7 +35,7 @@ Use a class if buttons doing the same action on different things: use the event 
 
 ### Can I use react to build the web-site?
 
-Not recommended: peer reviewers probably don't know what this is, and so may find it difficult to assess the quality of your solution.
+No: peer reviewers probably don't know what this is, and so may find it difficult to assess the quality of your solution. React is commonly used, but is not a standard. 
 
 ### Can I use jQuery to build the web-site?
 
