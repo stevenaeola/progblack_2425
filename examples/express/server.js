@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express()
 
+app.use(express.static('client'));
+
 app.get('/random/:max', function(req, resp){
     max = parseInt(req.params.max)
     rand = Math.floor(Math.random()*max) +1
