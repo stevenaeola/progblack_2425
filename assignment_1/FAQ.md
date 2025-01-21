@@ -29,7 +29,7 @@ You can but you don't have to. It will not affect your marks, only your download
 
 ### What is the best way to attach event listeners to multiple buttons?
 
-Use a class if buttons doing the same action on different things: use the event parameter in the event handler to extract the object. If the actions are all different then add by hand with ids. Do it after DOM is loaded to make sure that all the elements exist, possibly by using `defer` attribute on your [script tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script).
+Use a class if buttons are doing the same action on different things (e.g. delete): use the event parameter in the event handler to extract the object. If the actions are all different then add by hand with ids. Do it after DOM is loaded to make sure that all the elements exist, possibly by using `defer` attribute on your [script tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script).
 
 ## Client-side quality criteria
 
@@ -65,7 +65,7 @@ No
 
 ### Are we allowed to include additional modules via NPM that provide additional functionality?
 
-Yes this is definitely a good idea, as it makes the code easier to read, more robust and more maintainable. Bear in mind that some frameworks (e.g. react) that are installed via npm essentially use a different language, so are difficult to read for non-experts. They are best avoided.
+Yes this is definitely a good idea, as it makes the code easier to read, more robust and more maintainable. Bear in mind that some frameworks (e.g. react) that are installed via npm essentially use a different language, so are difficult to read for non-experts and should not be used.
 
 ### How are we advised to save the data, i.e using database?
 
@@ -129,6 +129,10 @@ module.exports = {
 ```
 
 But if you are using something else reasonable that is fine, as long as you include the relevant .eslintrc and it doesn’t require a whole load of work to set up.
+
+### Do I need to put comments in my code?
+
+May people view good comments as important in code quality, but some argue that could be should be self-explanatory, and that comments are problematic because they tend not to be updated as the code is maintained. The use of comments is up to you, and is not included in the assessment for this piece of work. The only time you _should_ write a comment is if you've taken a code snippet from elsewhere (e.g. Stack Overflow) and included it directly in your code. In this case you definitely should write a comment explaining where you got the code from. This will remove the risk of you being accused of academic misconduct/plagiarism. Also it is good professional practice, as the best solution to a problem may change over time, so it is helpful for people reading your code to know why you did it in a particular way, and to check if there are any updated ways of solving the problem.
 
 ## Video Presentation
 
