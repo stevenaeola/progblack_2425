@@ -116,19 +116,10 @@ For the API documentation the ideal is something like the documentation of the [
 ### How should we configure the ESLint file?
 
 
-Unless you have a good reason to do otherwise you should use this
+Recent versions of ESLint don't check style, only syntax. You can use any rule-set you think is reasonable, configured via 
+```npm init @eslint/config@latest```
 
-```
-module.exports = {
-    "extends": "standard",
-    "rules": {
-      "semi": [2, "always"],
-      "indent": "off"
-    }
-};
-```
-
-But if you are using something else reasonable that is fine, as long as you include the relevant .eslintrc and it doesn’t require a whole load of work to set up.
+Make sure you include the relevant eslint configuration and it doesn’t require a whole load of work to set up.
 
 ## Video Presentation
 

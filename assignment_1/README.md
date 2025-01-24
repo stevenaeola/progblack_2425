@@ -106,7 +106,7 @@ Source code (all zipped)
 - HTML and CSS and any media
 - Client and server side JavaScript
 - package.json including test and pretest scripts
-- .eslintrc 
+- ESLint configureation: eslint.config.js or .eslintrc 
 - jest test cases e.g. app.test.js
 - documentation of API
 - demonstration video 
