@@ -115,11 +115,12 @@ For the API documentation the ideal is something like the documentation of the [
 
 ### How should we configure the ESLint file?
 
+ESLint is no longer required because my original instructions were confusing
 
-Recent versions of ESLint don't check style, only syntax. You can use any rule-set you think is reasonable, configured via 
-```npm init @eslint/config@latest```
+~~Recent versions of ESLint don't check style, only syntax. You can use any rule-set you think is reasonable, configured via ~~
 
-Make sure you include the relevant eslint configuration and it doesn’t require a whole load of work to set up.
+
+~~Make sure you include the relevant eslint configuration and it doesn’t require a whole load of work to set up.~~
 
 ### Do I need to put comments in my code?
 
