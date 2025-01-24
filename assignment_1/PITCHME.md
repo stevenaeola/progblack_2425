@@ -107,7 +107,7 @@ Each entity type (e.g. picture) has
 - Use npm for management
 - Make sure you use --save or --save-dev option with packages you add
 - Write jest test cases: run with `npm test`
-- Use eslint: run with `npm run pretest`
+- ~~Use eslint: run with `npm run pretest`~~
 - Recommend using express
 
 ---
@@ -119,7 +119,7 @@ Source code (all zipped)
 - HTML and CSS and any media
 - Client and server side JavaScript
 - package.json including test and pretest scripts
-- ESLint configureation: eslint.config.js or .eslintrc 
+- ~~ESLint configuration: eslint.config.js or .eslintrc~~ 
 - jest test cases e.g. app.test.js
 - documentation of API
 - demonstration video 
@@ -172,7 +172,7 @@ Equally weighted 9% each
 
 ### Server-side quality criteria
 
-- Successful eslint (run with `npm run pretest`)
+- ~~Successful eslint (run with `npm run pretest`)~~
 - Successful jest tests with good coverage (run with `npm test`)
 - Testing includes content-type and HTTP code
 - Completeness of API documentation 
