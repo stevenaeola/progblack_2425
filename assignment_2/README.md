@@ -2,7 +2,7 @@
 # COMP1101 Programming (Black) Summative Assessment 2
 
 
-## Term 2 Programming Exercise Outline DRAFT
+## DRAFT Term 2 Programming Exercise Outline DRAFT
 
 - Submission by 14:00 Thursday 1 May 2025
 - Return after end of exam period
