@@ -3,7 +3,7 @@
 
 ---
 
-## DRAFT Term 2 Programming Exercise Outline DRAFT
+## Term 2 Programming Exercise Outline
 
 - Submission by 14:00 Thursday 1 May 2025
 - Return after end of exam period
@@ -193,7 +193,7 @@ The presentation mark (10%) will be awarded on the basis of
 
 ## Submission repository
 
-- The repository on GitHub must be accessible by me (username stevenaeola).
+- Give me (username stevenaeola) access to the repository on GitHub.
 - Allow access to the repository through Settings - Manage Access - Invite a collaborator. 
 - If you do not allow access you will lose marks. 
 - Note that this does not affect the access to any code you may write, which would most likely be in a public repository.
